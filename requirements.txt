@@ -1,0 +1,9 @@
+streamlit
+torch
+torchvision
+numpy
+opencv-python
+matplotlib
+seaborn
+scikit-learn
+imbalanced-learn
