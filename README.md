@@ -51,28 +51,28 @@ I have developed three independent deep learning applications using PyTorch, Str
 ---
 
 ## File Structure
+
+## File Structure
 ```bash
-OCTMNIST_Eye_Disease_Classifier/
-├── deployment/
-│   ├── part1_pytorch_demo/        # PyTorch tutorial interactive app
-│   ├── part2_tabular_ml/          # ML + data analysis on tabular data
-│   ├── part3_OCTMNIST_Classifier/ # Deployed CNN on OCT dataset
-├── analysis_notebooks/            # Original Jupyter notebooks for Part 1 & 2
-├── notebooks/                     # Part 3 and bonus models
-├── resources/                     # Weights (external link)
-├── report/                        # Final report PDF
+OCTMNIST-Classifier/
+├── analysis_notebooks/            # Part 1 & 2 notebooks
+│   ├── 01_data_preprocessing.ipynb
+│   └── 02_model_training.ipynb
+│
+├── notebooks/                     # Part 3 evaluation and bonus
+│   ├── 03_model_evaluation.ipynb
+│   └── 04_bonus_deep_learning.ipynb
+│
+├── resources/                     # Model weights and links
+│   └── pretrained_weights.txt
+│
+├── app.py                         # Streamlit app entry point
+├── best_model_final.pth           # CNN model weights
+├── streamlit_octmnist.py          # backup app script
 ├── requirements.txt
-└── README.md
+├── README.md
+└── .gitignore
 ```
-
-## Key Files
-- `deployment/` 
-    - app.py files for each of the three interactive apps
-    - `best_model.pth` stores the trained CNN model (not pushed to GitHub due to size).
-- `resources/`
-    - `pretrained_weights.txt`: Contains download links for large files (e.g. weights).
-
-- `notebooks/` & `analysis_notebooks/` Cleaned and structured Jupyter notebooks for each part of the assignment.
 
 ## Installation & Usage
 ### Clone the Repo
@@ -92,7 +92,6 @@ streamlit run deployment_part3_OCTMNIST_Classifier/app.py
 ```
 
 ## Project Goals
-
 This project demonstrates a full-stack ML/DL workflow through three independent components:
 
 - **Part 1: PyTorch Fundamentals** – Focused on tensors, autograd, model training, and educational walk-throughs in PyTorch.
