@@ -54,7 +54,7 @@ I have developed three independent deep learning applications using PyTorch, Str
 
 ## File Structure
 ```bash
-OCTMNIST-Classifier/
+OCTMNIST Eye Disease Classifier/
 ├── analysis_notebooks/            # Part 1 & 2 notebooks
 │   ├── 01_data_preprocessing.ipynb
 │   └── 02_model_training.ipynb
