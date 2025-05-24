@@ -1,4 +1,4 @@
-# OCTMNIST Eye Disease Classifier – Deep Learning Portfolio
+# OCTMNIST Eye Disease Classifier – Deep Learning
 
 ## Overview
 I have developed three independent deep learning applications using PyTorch, Streamlit, and classic ML libraries as part of my academic coursework for Deep Learning. Each part demonstrates practical deployment-ready models and interactive dashboards, including one for real-world medical image classification using the OCTMNIST dataset.
